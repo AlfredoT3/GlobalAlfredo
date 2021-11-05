@@ -31,10 +31,11 @@ nav.navbar{
     background-color: goldenrod;
 }
 .card{
-    padding: 5%;
-   
+    padding: 5%;   
     text-align: center;
-    font-size: 20px;
+    table-layout: fixed;
+    word-wrap: break-word;
+    
 }
 .quien{
    background-image: url("https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804__480.jpg");
@@ -44,11 +45,47 @@ nav.navbar{
    text-align: center;
 }
 .presentacion{
-    background-color: tomato;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804__480.jpg");
    border-radius: 100px;
     font-size: 35px;
     color: whitesmoke;
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+}
+.face{
+    background-color: rgb(74, 74, 240);
+}
+.insta{
+    background-color: rgb(228, 18, 116);
+}
+.mail{
+    background-color: orangered;
+}
+.formulario{   
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(
+        rgba(164, 163, 185, 0.685),
+        rgba(75, 158, 58, 0.685)
+    ),            
+    url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7349ae7a-95fb-48b3-a00b-b7cbced55724/ddpyeoq-774d94b0-4fff-4868-9f06-1f877b44fd9e.png/v1/fill/w_738,h_1083,strp/dohko_de_libra_armadura_divina_by_naironkr_ddpyeoq-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTE2ODciLCJwYXRoIjoiXC9mXC83MzQ5YWU3YS05NWZiLTQ4YjMtYTAwYi1iN2NiY2VkNTU3MjRcL2RkcHllb3EtNzc0ZDk0YjAtNGZmZi00ODY4LTlmMDYtMWY4NzdiNDRmZDllLnBuZyIsIndpZHRoIjoiPD03OTYyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.dImdpFErY1RWQgRa_P_CGGfi-_RomTpgBCpBtgAn7As");
+    background-size: cover;
+    color:white
+    
+    
+
+}
+.espacioDatos{
+    padding: 10px;
+    font-size: 40px;
+    color: yellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+
+}
+.boton{
+    background-color: rgba(92, 39, 4, 0.596);
+    color: whitesmoke;
 }
